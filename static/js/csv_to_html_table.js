@@ -31,7 +31,7 @@ CsvToHtmlTable = {
                 // Model,Overall,Visual Similarity,Counting,Relative Depth,
                 // Jigsaw,Art Style,Functional Correspondence,Semantic Correspondence,Spatial Relation,
                 // Object Localization,Visual Correspondence,Multi-view Reasoning,Relative Reflectance,Forensic Detection,IQ Test
-                const explanations = ["The name of the model", 
+                const explanations = ["model", 
                 "Overall score for all tasks", 
                 "Score for Visual Similarity task", 
                 "Score for Counting task", 
