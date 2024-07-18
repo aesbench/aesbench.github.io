@@ -73,11 +73,11 @@ CsvToHtmlTable = {
                             $tableBodyRowTd.css("border-right", "1px solid #dbdbdb");
                         }
                         // if API, then set the background color of the row to light red
-                        if (rowIdx > 2 && rowIdx < 9) {
+                        if (rowIdx > 0 && rowIdx < 6) {
                             $tableBodyRow.css("background-color", "#FEFAE3");
                         }
                         // if open source model, then set the background color of the row to light green
-                        if (rowIdx <3 || rowIdx > 8) {
+                        if ( rowIdx > 5) {
                             $tableBodyRow.css("background-color", "#F8FBFD");
                         }
                         // if random, light blue
