@@ -34,7 +34,7 @@ CsvToHtmlTable = {
                 const explanations = ["model", 
                 "Overall score", 
                 "Score for Technical Quality", 
-                "Score for Color and light", 
+                "Score for Color and Light", 
                 "Score for Composition", 
                 "Score for Content", 
                 "Score for Natural Images", 
