@@ -33,10 +33,10 @@ CsvToHtmlTable = {
                 // Object Localization,Visual Correspondence,Multi-view Reasoning,Relative Reflectance,Forensic Detection,IQ Test
                 const explanations = ["model", 
                 "Overall score", 
-                "Score for Technical Quality", 
-                "Score for Color and Light", 
-                "Score for Composition", 
-                "Score for Content", 
+                "Score for Emotion", 
+                "Score for Interest", 
+                "Score for Uniqueness", 
+                "Score for Vibe", 
                 "Score for Natural Images", 
                 "Score for Artistic Images", 
                 "Score for Artificial Intelligence Generated Images"];
