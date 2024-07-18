@@ -35,10 +35,7 @@ CsvToHtmlTable = {
                 "Overall score", 
                 "Score for Relevance", 
                 "Score for Precision", 
-                "Score for Completeness", 
-                "Probability for Score 0", 
-                "Probability for Score 1", 
-                "Probability for Score 2"];
+                "Score for Completeness"];
                 for (var headerIdx = 0; headerIdx < csvHeaderRow.length; headerIdx++) {
                     var explanation = explanations[headerIdx];
                     $tableHeadRow2Cell = $("<th class='tooltip'></th>").text(csvHeaderRow[headerIdx]);
