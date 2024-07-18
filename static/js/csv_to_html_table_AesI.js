@@ -35,7 +35,6 @@ CsvToHtmlTable = {
                 "Overall score", 
                 "Score for Relevance", 
                 "Score for Precision", 
-                "Score for Composition", 
                 "Score for Completeness", 
                 "Probability for Score 0", 
                 "Probability for Score 1", 
@@ -74,7 +73,7 @@ CsvToHtmlTable = {
                             $tableBodyRowTd.css("border-right", "1px solid #dbdbdb");
                         }
                         // if API, then set the background color of the row to light red
-                        if (rowIdx > 2 && rowIdx < 9) {
+                        if (rowIdx > 1 && rowIdx < 9) {
                             $tableBodyRow.css("background-color", "#FEFAE3");
                         }
                         // if open source model, then set the background color of the row to light green
