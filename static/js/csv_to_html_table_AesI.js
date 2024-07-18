@@ -33,13 +33,13 @@ CsvToHtmlTable = {
                 // Object Localization,Visual Correspondence,Multi-view Reasoning,Relative Reflectance,Forensic Detection,IQ Test
                 const explanations = ["model", 
                 "Overall score", 
-                "Score for Technical Quality", 
-                "Score for Color and Light", 
+                "Score for Relevance", 
+                "Score for Precision", 
                 "Score for Composition", 
-                "Score for Content", 
-                "Score for Natural Images", 
-                "Score for Artistic Images", 
-                "Score for Artificial Intelligence Generated Images"];
+                "Score for Completeness", 
+                "Probability for Score 0", 
+                "Probability for Score 1", 
+                "Probability for Score 2"];
                 for (var headerIdx = 0; headerIdx < csvHeaderRow.length; headerIdx++) {
                     var explanation = explanations[headerIdx];
                     $tableHeadRow2Cell = $("<th class='tooltip'></th>").text(csvHeaderRow[headerIdx]);
