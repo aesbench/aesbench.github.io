@@ -32,21 +32,14 @@ CsvToHtmlTable = {
                 // Jigsaw,Art Style,Functional Correspondence,Semantic Correspondence,Spatial Relation,
                 // Object Localization,Visual Correspondence,Multi-view Reasoning,Relative Reflectance,Forensic Detection,IQ Test
                 const explanations = ["model", 
-                "Overall score for all tasks", 
-                "Score for Visual Similarity task", 
-                "Score for Counting task", 
-                "Score for Relative Depth task", 
-                "Score for Jigsaw task", 
-                "Score for Art Style task", 
-                "Score for Functional Correspondence task", 
-                "Score for Semantic Correspondence task", 
-                "Score for Spatial Relation task", 
-                "Score for Object Localization task", 
-                "Score for Visual Correspondence task", 
-                "Score for Multi-view Reasoning task", 
-                "Score for Relative Reflectance task", 
-                "Score for Forensic Detection task", 
-                "Score for IQ Test task"];
+                "Overall score", 
+                "Score for Technical Quality", 
+                "Score for Color and light", 
+                "Score for Composition", 
+                "Score for Content", 
+                "Score for Natural Images", 
+                "Score for Artistic Images", 
+                "Score for Artificial Intelligence Generated Images"];
                 for (var headerIdx = 0; headerIdx < csvHeaderRow.length; headerIdx++) {
                     var explanation = explanations[headerIdx];
                     $tableHeadRow2Cell = $("<th class='tooltip'></th>").text(csvHeaderRow[headerIdx]);
@@ -74,7 +67,7 @@ CsvToHtmlTable = {
                             $tableBodyRowTd.css("text-align", "left");
                             // click to see more info
                             var cellValue = csvData[rowIdx][colIdx];
-                            var url = 'https://github.com/zeyofu/BLINK_Benchmark/tree/main/eval/saved_outputs';
+                            var url = 'https://aesbench.github.io/';
                             $tableBodyRowTd.html('<a href="' + url + '">' + cellValue + '</a>');
                         }
                         if (colIdx == 1 || colIdx == 0) {
