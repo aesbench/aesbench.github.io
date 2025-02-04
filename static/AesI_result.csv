@@ -1,6 +1,7 @@
 Model,Overall,Rele.,Prec.,Comp.
 GPT-4o,1.732,1.788,1.662,1.732
 Claude 3 Opus,1.653,1.84,1.609,1.512
+InternVL2-8b,1.455,1.861,1.188,1.316
 GPT-4V,1.301,1.385,1.151,1.366
 Gemini Pro Vision,1.222,1.416,1.087,1.164
 BlueImage-GPT,1.44,1.628,1.398,1.295
